@@ -1,0 +1,34 @@
+// labels
+$labels_largest: 150px;
+$labels_huge: 80px;
+$labels_big: 60px;
+$labels_medium: 45px;
+$labels_normal: 30px;
+$labels_small: 20px;
+$labels_tiny: 15px;
+
+// text 
+$text_normal: 30px;
+$text_small: 20px;
+
+
+// colors
+$orange: #FBCC24; 
+$white: white;
+$dark: #262626;
+
+// fonts
+$SegoeUI: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.button {
+    width: 300px;
+    height: 60px;
+    background: $orange;
+    border-radius: 50px;
+    color: $dark;
+    font-size: $labels_small;
+    letter-spacing: 1;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}

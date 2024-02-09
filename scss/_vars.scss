@@ -27,8 +27,29 @@ $SegoeUI: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 50px;
     color: $dark;
     font-size: $labels_small;
-    letter-spacing: 1;
-    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-weight: 700;
     border: none;
     cursor: pointer;
+    transition: .5s;
+    @media (max-width: 700px) {
+        width: 220px;
+        height: 50px;
+        font-size: $labels_tiny;
+    }
+    @media (max-width: 600px) {
+        width: 180px;
+        height: 40px;
+        font-size: 12px;
+    }
+    @media (max-width: 450px) {
+        width: 130px;
+        height: 40px;
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+}
+.button:hover {
+    background: $dark;
+    color: $orange;
 }
